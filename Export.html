@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Export Guide - Quick Minecraft Texture Pack Maker</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background-color: #fdfdfd; }
+    h1 { color: #333; }
+    h2 { color: #555; margin-top: 30px; }
+    ol { font-size: 16px; line-height: 1.6; }
+    code { background-color: #f0f0f0; padding: 2px 4px; border-radius: 4px; }
+    img { max-width: 100%; height: auto; margin: 20px 0; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>📦 How to Export Your Texture Pack</h1>
+  <p>Once your project is ready, follow these steps to export it into a Minecraft-compatible texture pack:</p>
+
+  <h2>🔹 Accessing the Export Panel</h2>
+  <ol>
+    <li>Open the editor for your project.</li>
+    <li>Click on <strong>File</strong> in the top menu.</li>
+    <li>Select <strong>Export Project</strong>.</li>
+  </ol>
+  <img src="images/export-access.png" alt="Accessing Export Panel">
+
+  <h2>🔹 Filling Out Export Details</h2>
+  <p>In the export panel, you’ll see the following fields:</p>
+  <ul>
+    <li><strong>Name Textbox:</strong> Enter the name of your texture pack.</li>
+    <li><strong>MOTD Textbox:</strong> Add a short message or description. You can use <a href="motd%20coloring.html">MOTD color codes</a> here.</li>
+    <li><strong>pack.png Selection:</strong> Choose an image to represent your pack. This will be included in the exported zip.</li>
+    <li><strong>Export Button:</strong> Click to generate the filtered, zipped texture pack.</li>
+  </ul>
+  <img src="images/export-panel-ui.png" alt="Export Panel UI">
+
+  <h2>🔹 What Happens During Export</h2>
+  <ul>
+    <li>Only files listed in <code>opened.txt</code> are included.</li>
+    <li>A <code>pack.mcmeta</code> file is generated with your MOTD and pack format.</li>
+    <li>The pack is zipped and saved to your desktop or export folder.</li>
+  </ul>
+
+  <p>Once exported, you can drop the zip into your Minecraft <code>resourcepacks</code> folder and activate it in-game.</p>
+</body>
+</html>
