@@ -1,2 +1,2 @@
-# Quick-Minecraft-Texture-Pack-Maker
-An app to make an Minecraft Texture pack in one click.
+# QM Texture pack maker documentary
+This branch is used for helping people in using the app.
