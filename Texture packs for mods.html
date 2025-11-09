@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modded Texture Packs - Quick Minecraft Texture Pack Maker</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; background-color: #fdfdfd; }
+    h1 { color: #333; }
+    h2 { color: #555; margin-top: 30px; }
+    ol, ul { font-size: 16px; line-height: 1.6; }
+    code { background-color: #f0f0f0; padding: 2px 4px; border-radius: 4px; }
+    img { max-width: 100%; height: auto; margin: 20px 0; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>🧩 How to Make Texture Packs for Mods</h1>
+  <p>Mods introduce custom blocks, items, and entities with their own texture paths. Here's how to retexture them using the Quick Minecraft Texture Pack Maker:</p>
+
+  <h2>🔹 Step 1: Understand Mod Asset Paths</h2>
+  <ul>
+    <li>Each mod stores its textures in a folder like <code>assets/modid/textures/...</code>.</li>
+    <li>To retexture a mod item, you must match its internal path exactly in your project.</li>
+    <li>You can inspect a mod’s <code>.jar</code> file (it’s just a zip) to find its asset structure.</li>
+  </ul>
+
+  <h2>🔹 Step 2: Add Mod Folders to Your Project</h2>
+  <ol>
+    <li>Open your project in the editor.</li>
+    <li>Click <strong>File</strong> → <strong>Open Folder in Browser</strong>.</li>
+    <li>Click <strong>Edit</strong> to add folders manually.</li>
+    <li>⚠️ The first time you do this, a warning will appear. Read and understand it before proceeding.</li>
+    <li>Create folders like <code>assets/modid/textures/item/</code> and place your custom textures inside.</li>
+  </ol>
+  <img src="images/mod-folder-edit.png" alt="Editing mod folders in browser">
+
+  <h2>🔹 Step 3: Open or Edit the Texture</h2>
+  <ul>
+    <li>To ensure a texture is included in the export, you must <strong>open or edit it</strong> in the editor.</li>
+    <li>Only files listed in <code>opened.txt</code> are exported.</li>
+    <li>Use the preview panel to verify your changes.</li>
+  </ul>
+
+  <h2>🔹 Step 4: Export as Usual</h2>
+  <p>Once your mod textures are ready, follow the standard <a href="Export.html">Export Ritual</a> to generate your pack. The modded assets will be included if they were opened or edited.</p>
+
+  <p>Need help finding mod paths? Try opening the mod’s <code>.jar</code> and browsing its <code>assets</code> folder.</p>
+</body>
+</html>
